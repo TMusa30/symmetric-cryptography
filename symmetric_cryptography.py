@@ -160,8 +160,7 @@ elif argumenti.__contains__("get"):
     sifraAdrese = pronadiSifru(address, master_password)
     if sifraAdrese :
       print("Password for " + address + " is: " + sifraAdrese)
-    else :
-      print("Master password incorrect or integrity check failed.")
+    
     
 
 
